@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: Default   # try self-hosted first
+  vmImage: 'ubuntu-latest'
 
 steps:
 - task: UseDotNet@2
